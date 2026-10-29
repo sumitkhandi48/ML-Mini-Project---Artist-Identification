@@ -1,0 +1,31 @@
+Model: final_knn
+Features: base + spatial HSV/LBP
+PCA components: 300
+Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 3, 'p': 2, 'weights': 'distance'}
+Train accuracy: 1.000
+Validation accuracy: 0.383
+Test accuracy: 0.384
+Top-3 test accuracy: 0.576
+Training time (s): 0.00
+
+                            precision    recall  f1-score   support
+
+            Albrecht Durer      0.571     0.320     0.410        50
+           Boris Kustodiev      0.429     0.060     0.105        50
+             Camille Corot      0.500     0.265     0.347        49
+          Camille Pissarro      0.217     0.600     0.319        50
+             Childe Hassam      0.333     0.327     0.330        49
+              Claude Monet      0.190     0.800     0.308        50
+               Edgar Degas      0.444     0.160     0.235        50
+             Eugene Boudin      0.648     0.700     0.673        50
+Giovanni Battista Piranesi      0.815     0.880     0.846        50
+              Gustave Dore      0.708     0.680     0.694        50
+             Henri Matisse      0.143     0.041     0.063        49
+                Ilya Repin      0.308     0.160     0.211        50
+           Ivan Aivazovsky      0.783     0.360     0.493        50
+             Ivan Shishkin      0.318     0.280     0.298        50
+       John Singer Sargent      0.667     0.120     0.203        50
+
+                  accuracy                          0.384       747
+                 macro avg      0.472     0.384     0.369       747
+              weighted avg      0.472     0.384     0.370       747

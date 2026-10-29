@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+data/images/
+data/*.npz
+data/*.npy
+data/all_data_info.csv
+data/train_info.csv
+models/*.pt
+models/*.joblib
+41.pdf
+src.zip
+_archive/

@@ -1,0 +1,31 @@
+Model: final_decision_tree
+Features: base + spatial HSV/LBP
+PCA components: 300
+Parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 8, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': 42, 'splitter': 'best'}
+Train accuracy: 0.435
+Validation accuracy: 0.266
+Test accuracy: 0.293
+Top-3 test accuracy: 0.517
+Training time (s): 5.44
+
+                            precision    recall  f1-score   support
+
+            Albrecht Durer      0.354     0.340     0.347        50
+           Boris Kustodiev      0.151     0.160     0.155        50
+             Camille Corot      0.130     0.122     0.126        49
+          Camille Pissarro      0.200     0.260     0.226        50
+             Childe Hassam      0.218     0.245     0.231        49
+              Claude Monet      0.257     0.360     0.300        50
+               Edgar Degas      0.339     0.400     0.367        50
+             Eugene Boudin      0.452     0.380     0.413        50
+Giovanni Battista Piranesi      0.639     0.780     0.703        50
+              Gustave Dore      0.639     0.460     0.535        50
+             Henri Matisse      0.122     0.184     0.146        49
+                Ilya Repin      0.211     0.160     0.182        50
+           Ivan Aivazovsky      0.441     0.300     0.357        50
+             Ivan Shishkin      0.139     0.100     0.116        50
+       John Singer Sargent      0.233     0.140     0.175        50
+
+                  accuracy                          0.293       747
+                 macro avg      0.302     0.293     0.292       747
+              weighted avg      0.302     0.293     0.292       747

@@ -1,0 +1,7 @@
+model,test_top1,test_top3,test_macro_f1,note
+classical_svm,0.647,0.851,0.646,current project result; standard SVC.predict() accuracy
+frozen_resnet50_logreg_C0.1,0.7978580990629184,0.9303882195448461,0.7977150813917057
+frozen_convnext_tiny_logreg_C0.1,0.8313253012048193,0.9491298527443106,0.8300053947778792
+fine_tuned_resnet50,0.8795180722891566,0.9558232931726908,0.8790412715663667,approved headline model
+paper_svm,0.681,,,Chen & Deng paper
+paper_cnn,0.747,,,Chen & Deng paper

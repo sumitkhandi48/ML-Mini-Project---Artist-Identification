@@ -1,0 +1,7 @@
+Model: fine-tuned ResNet-50, checkpoint epoch 13
+Test samples: 747
+Top-1 accuracy: 0.879518
+Top-3 accuracy: 0.955823
+Macro-F1: 0.879041
+Bootstrap 95% CI: [0.856760, 0.902276]
+Macro one-vs-rest AUC: 0.986367

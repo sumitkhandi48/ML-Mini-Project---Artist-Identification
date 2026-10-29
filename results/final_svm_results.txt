@@ -1,0 +1,31 @@
+Model: final_svm
+Features: base + spatial HSV/LBP
+PCA components: 300
+Parameters: {'C': 100, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': True, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+Train accuracy: 1.000
+Validation accuracy: 0.627
+Test accuracy: 0.647
+Top-3 test accuracy: 0.851
+Training time (s): 23.33
+
+                            precision    recall  f1-score   support
+
+            Albrecht Durer      0.625     0.600     0.612        50
+           Boris Kustodiev      0.463     0.500     0.481        50
+             Camille Corot      0.700     0.571     0.629        49
+          Camille Pissarro      0.544     0.620     0.579        50
+             Childe Hassam      0.538     0.571     0.554        49
+              Claude Monet      0.540     0.680     0.602        50
+               Edgar Degas      0.681     0.640     0.660        50
+             Eugene Boudin      0.863     0.880     0.871        50
+Giovanni Battista Piranesi      0.943     1.000     0.971        50
+              Gustave Dore      0.939     0.920     0.929        50
+             Henri Matisse      0.545     0.490     0.516        49
+                Ilya Repin      0.625     0.400     0.488        50
+           Ivan Aivazovsky      0.771     0.740     0.755        50
+             Ivan Shishkin      0.565     0.520     0.542        50
+       John Singer Sargent      0.444     0.560     0.496        50
+
+                  accuracy                          0.647       747
+                 macro avg      0.652     0.646     0.646       747
+              weighted avg      0.653     0.647     0.646       747

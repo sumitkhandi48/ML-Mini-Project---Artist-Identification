@@ -1,0 +1,4 @@
+Model,CV acc (3-fold),Train acc,Val acc,Test acc,Precision (macro),Recall (macro),F1 (macro),Train time (s),Train-Test gap
+SVM,0.479,0.813,0.485,0.509,0.509,0.508,0.504,11.53,0.304
+KNN,0.314,1.0,0.36,0.34,0.399,0.339,0.323,3.92,0.66
+Decision Tree,0.227,0.411,0.226,0.246,0.233,0.246,0.237,12.5,0.165
